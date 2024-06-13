@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Frank Ruhl Libre;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 110%;
+}
+
+header, footer {
+    background-color: #9f9c9c;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.container2 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px rgba(45, 43, 43, 0.1);
+    box-sizing: border-box; 
+    background-color: #ebeaea;
+}
+
+.element {
+    width: 28%; 
+    background-color: white;
+    padding: 10%;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px rgba(45, 43, 43, 0.1);
+    box-sizing: border-box; 
+    height: 400px;
+}
+
+.form {
+    width: 80%;
+    align-items: center;
+    background-color: #ebeaea;
+    margin: 0 auto;
+}
+
+.form-item {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#last {
+    margin-bottom: 5%;
+}
+
+.im {
+    width: 100%;
+    position: top;
+}
+
+.im2 {
+    width: 60%;
+}
+
+article {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+ 
+h1 {
+    font-size: 2.5em; 
+    margin: 0; 
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Frank Ruhl Libre;
+}
+
+title {
+    padding-bottom: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 10px;
+}
+
+a, h2 {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #9f9c9c;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.9em;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#footer {
+    color: black;
+}
