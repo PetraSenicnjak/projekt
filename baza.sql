@@ -71,11 +71,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `ime`, `prezime`, `korisnicko_ime`, `lozinka`, `razina`) VALUES
 (1, 'p', 'p', 'pp', '$2y$10$8wYJwSzZLXTgIa1bxSCqB.BLinc6.ommgh/VEsjVHu2nTr6foSz5G', 1),
-(12, 'pero', 'peric', 'peroperic', '$2y$10$MKlxee5lHRWYNgoQg2hMvek5K4urBUHyDQ/pFYWBdWEk2VAtW.QKO', 0),
-(13, 'pero', 'peric', 'pero peric', '$2y$10$MqrQc0/18fDxZy84ol9OdOfxUgxWTS769c9rGKosKqEpLSsXzW1He', 0),
-(14, 'pero', 'peric', 'peropericc', '$2y$10$ghuwvEtym0OQ6SMP.WLWA.6G4g8kgWqDlcte1BXMwu1.7PBAd2zq2', 0),
-(15, 'f', 'f', 'f', '$2y$10$QZQDlY10b7Hcbrp4ZOR6KuQgnoxzojtj4ImypGvOi6ybMd9Ke9wiu', 0),
-(16, 'ivan', 'ivic', 'ii', '$2y$10$5AdgP4KwitPnCmfKjZCbXuhvmlZB/8podn9cz80IoJC/7GTCngYHa', 0);
+(2, 'pero', 'peric', 'peropericc', '$2y$10$ghuwvEtym0OQ6SMP.WLWA.6G4g8kgWqDlcte1BXMwu1.7PBAd2zq2', 0),
+(3, 'ivan', 'ivic', 'ii', '$2y$10$5AdgP4KwitPnCmfKjZCbXuhvmlZB/8podn9cz80IoJC/7GTCngYHa', 0);
 
 --
 -- Indexes for dumped tables
